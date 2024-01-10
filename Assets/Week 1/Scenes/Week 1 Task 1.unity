@@ -580,7 +580,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 943be374e215f944cbdd9d02639a5ad2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: -8
+  speed: -6
 --- !u!4 &1670624190
 Transform:
   m_ObjectHideFlags: 0
@@ -609,7 +609,7 @@ GameObject:
   - component: {fileID: 1693794854}
   - component: {fileID: 1693794853}
   m_Layer: 0
-  m_Name: Circle
+  m_Name: Clock
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

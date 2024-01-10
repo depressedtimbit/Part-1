@@ -14,6 +14,6 @@ public class Missle : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(transform.forward * speed * Time.deltaTime);
+        transform.Translate(speed * Time.deltaTime, 0, 0);
     }
 }
