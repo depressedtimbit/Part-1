@@ -20,7 +20,7 @@ public class Missle : MonoBehaviour
 
     private void FixedUpdate()
     {
-        Vector2 direction = new Vector2(speed * Time.deltaTime, 0);
+        Vector2 direction = new Vector2(0, -speed * Time.deltaTime);
         rigidbody.MovePosition(rigidbody.position + direction);
     }
 
